@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="MWB-nav">
+        <div class="MWB-navwrap">
+            <div class="MWB-logo">EYOB<span>TESFAYE</span></div>
+            <ul class="MWB-links" id="MWB-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="MWB-toggle" id="MWB-toggle">
+                <div class="MWB-bar MWB-top"></div>
+                <div class="MWB-bar MWB-mid"></div>
+                <div class="MWB-bar MWB-bot"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1>Welcome to My Website🤗</h1>
+                <p>Hi, I’m Eyob, a frontend developer passionate about creating fast, accessible, and delightful web
+                    experiences.</p>
+                <div class="button-container">
+                    <button class="button-1"
+                        onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">
+                        see my works
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="Pictures/Gemini_Generated_Image_2neq4p2neq4p2neq.png">
+
+                    </div>
+        </section>
+
+        <section class="about-section" id="AboutMe">
+            <div id="about">
+                <section class="about section-hidden">
+                    <div class="about-container">
+                        <div class="about-image">
+                            <img src="Pictures/ChatGPT Image Jul 20, 2025, 11_18_14 AM.png" alt="Profile Image" />
+                        </div>
+                        <div class="about-text">
+                            <h2>About Me😎</h2>
+                            <p>
+                                💻💻 Hello! I'm Eyob Tesfaye, a passionate front-end developer with a background in
+                                graphic
+                                design and video editing. I love creating clean, responsive, and interactive web
+                                experiences.☺️
+                                My skills include HTML, CSS, JavaScript, and creative tools like Adobe XD and After
+                                Effects.💻💻
+                            </p>
+
+                        </div>
+                    </div>
+                    <section class="skill-section" id="skills">
+                        <h2 class="skill-title">My Skills</h2>
+
+                        <div class="skill">
+                            <span>HTML <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML logo"
+                                    class="skill-logo"></span>
+                            <div class="bar">
+                                <div class="fill" data-percent="100%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>CSS <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS logo"
+                                    class="skill-logo"></span>
+                            <div class="bar">
+                                <div class="fill" data-percent="90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>JavaScript <img src="Pictures/js.png" alt="JavaScript logo" class="skill-logo"></span>
+                            <div class="bar">
+                                <div class="fill" data-percent="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C++ <img src="Pictures/c-.png" alt="CSS logo" class="skill-logo"></span>
+                            <div class="bar">
+                                <div class="fill" data-percent="5%"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
+            </div>
+
+
+            <section class="services-section" id="services">
+                <h2>My Services</h2>
+                <div class="card-container">
+
+                    <div class="card">
+                        <img src="Pictures/graphic-design-tools-removebg-preview.png" alt="Graphics Design Icon">
+                        <div class="card-title">
+                            <h3>Graphics Design</h3>
+                        </div>
+                        <div class="card-text">I create visually appealing designs that effectively communicate your
+                            brand's
+                            message.</div>
+                        <button type="button" class="btn">
+                            <strong>Need This One</strong>
+                            <div id="container-stars">
+                                <div id="stars"></div>
+                            </div>
+
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </button>
+
+                    </div>
+                    <div class="card">
+                        <img src="Pictures/front-end-developer-removebg-preview.png" alt="Frontend Development Icon">
+                        <div class="card-title">
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="card-text">I specialize in building responsive and interactive web applications
+                            using
+                            the latest technologies.</div>
+                        <button type="button" class="btn">
+                            <strong>This one</strong>
+                            <div id="container-stars">
+                                <div id="stars"></div>
+                            </div>
+
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </button>
+
+                    </div>
+                    <div class="card">
+                        <img src="Pictures/vd-removebg-preview.png" alt="Video Editing Icon">
+                        <div class="card-title">
+                            <h3>Video Editing</h3>
+                        </div>
+                        <div class="card-text">I create engaging video content that tells your brand's story and
+                            captivates
+                            your audience.</div>
+                        <button type="button" class="btn">
+                            <strong>Or this one</strong>
+                            <div id="container-stars">
+                                <div id="stars"></div>
+                            </div>
+
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </button>
+
+                    </div>
+
+                </div>
+            </section>
+            <section id="certificates">
+                <div class="section-header">
+                    <h1>My Certificates🤩</h1>
+                    <p>A showcase of the certifications I've earned</p>
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider" id="slider">
+                        <div class="slide">
+                            <img src="Pictures/udacity.png" alt="Udacity Certificate" />
+                            <div class="description">
+                                <h2>Udacity – Programming Fundamentals</h2>
+                                <p>This certificate represents my mastery of the fundamentals of programming, including
+                                    problem-solving, loops, conditionals, and the basics of coding logic using modern
+                                    practices.</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="Pictures/uniathena.png" alt="UniAthena Certificate" />
+                            <div class="description">
+                                <h2>UniAthena – Basics of Python</h2>
+                                <p>Issued by UniAthena, this certification validates my understanding of Python
+                                    programming.
+                                    Topics included variables, functions, loops, and writing clean, maintainable Python
+                                    code.</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="Pictures/ADBInstitute.png" alt="ADBinstitute Certificate" />
+                            <div class="description">
+                                <h2>ADBinstitute – Cyber Security Essentials</h2>
+                                <p>Through this certification, I learned foundational cyber security concepts including
+                                    risk
+                                    management, data protection, ethical hacking, and how to safeguard networks and
+                                    systems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav-buttons">
+                        <button onclick="prevSlide()">&#10094;</button>
+                        <button onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-title">
+                        <h1>Let's Connect🤗</h1>
+                        <p>🥰Feel free to reach out for collaborations or questions!😉</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <!-- Contact Info -->
+                        <div class="contact-info">
+                            <h2>Contact Information</h2>
+                            <p><strong>Email:</strong> <a href="mailto:yourname@example.com">eyob0081@gmail.com</a></p>
+                            <p><strong>Phone:</strong> <a href="tel:+1234567890">+251 985 754 689</a></p>
+                            <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+                            <p><strong>GET WHATEVER YOU WANT 😍</strong></p>
+                            <p><strong>Follow me on social media for updates and more!🤗🤗🤗🤗🤗🤗</strong></p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=61566839290668" target="_blank"><i
+                                        class='bx bxl-facebook'></i></a>
+                                <a href="https://www.instagram.com/weak_1221/" target="_blank"><i
+                                        class='bx bxl-instagram'></i></a>
+                                <a href="https://www.linkedin.com/in/eyob-tesfaye-690112379/" target="_blank"><i
+                                        class='bx bxl-linkedin'></i></a>
+                                <a href="https://www.tiktok.com/@code_it_now?_t=ZM-8yeR0c4Qq06&_r=1" target="_blank"
+                                    rel="noopener noreferrer"><i class='bx bxl-tiktok'></i></a>
+                                <a href="https://github.com/Eyob-Tesfaye-A" target="_blank"><i
+                                        class='bx bxl-github'></i></a>
+                                <a href="https://t.me/Gkuym97t" target="_blank">
+                                    <i class='bx bxl-telegram'></i></a>
+                                <a href="https://www.youtube.com/@Code_It_Now1" target="_blank"><i
+                                        class='bx bxl-youtube'></i></a>
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- Contact Form -->
+                        <form action="https://formspree.io/f/xanbpzww" method="POST" class="contact-form">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="tel" name="phone" placeholder="Phone Number (e.g., +251 123 456 789)"
+                                pattern="^\+?\d{1,3}[\s-]?\d{1,14}$"
+                                title="Format: +[country code] [number] (e.g., +251 98 575 4689)">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 🔻 FOOTER -->
+            <footer class="site-footer">
+                <div class="footer-container">
+                    <p>&copy; 2025 Eyob Tesfaye. All Rights Reserved.</p>
+                    <div class="footer-links">
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#">Back to Top ↑</a>
+                    </div>
+                </div>
+            </footer>
+    </main>
+    <script>
+        const slider = document.getElementById("slider");
+        const slides = document.querySelectorAll(".slide");
+        let currentSlide = 0;
+
+        function updateSliderPosition() {
+            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSliderPosition();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateSliderPosition();
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
